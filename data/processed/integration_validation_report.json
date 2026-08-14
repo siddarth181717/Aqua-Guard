@@ -1,0 +1,92 @@
+{
+  "overall_status": "PASSED",
+  "summary": {
+    "total_records_checked": 12,
+    "total_checks": 10,
+    "passed_checks": 9,
+    "warning_checks": 1,
+    "failed_checks": 0
+  },
+  "detailed_checks": {
+    "check_1_geometry_validity": {
+      "status": "PASS",
+      "description": "Validates GeoJSON Polygon/MultiPolygon structure and non-empty coordinates.",
+      "valid_records": 12,
+      "invalid_records": 0,
+      "issues": []
+    },
+    "check_2_crs": {
+      "status": "PASS",
+      "description": "Ensures standard EPSG:4326 (WGS84) Coordinate Reference System.",
+      "non_standard_crs_count": 0
+    },
+    "check_3_missing_values": {
+      "status": "PASS",
+      "description": "Audits missing real-world values (NULL/NA preserved; no fake fabrication).",
+      "missing_field_counts": {
+        "water_body_id": 0,
+        "name": 0,
+        "state": 0,
+        "district": 0,
+        "geometry": 0,
+        "year": 0,
+        "observation_date": 0,
+        "satellite": 0,
+        "water_area_m2": 12,
+        "water_area_ha": 12,
+        "water_area_change": 0,
+        "water_area_change_percent": 12,
+        "mndwi": 12,
+        "ndwi": 12,
+        "ndvi": 12,
+        "cloud_percentage": 12,
+        "rainfall": 12,
+        "landuse": 0,
+        "builtup": 0,
+        "source": 0,
+        "dataset_collection": 0,
+        "acquisition_date": 0,
+        "processing_date": 0,
+        "retrieved_at": 0,
+        "data_quality": 12
+      }
+    },
+    "check_4_duplicates": {
+      "status": "WARNING",
+      "description": "Identifies duplicate observations per water body and date.",
+      "duplicate_count": 10
+    },
+    "check_5_impossible_areas": {
+      "status": "PASS",
+      "description": "Verifies water area is non-negative and physically plausible.",
+      "negative_area_count": 0,
+      "excessive_area_count": 0
+    },
+    "check_6_invalid_dates": {
+      "status": "PASS",
+      "description": "Ensures valid ISO YYYY-MM-DD date formatting without future timestamps.",
+      "invalid_date_count": 0
+    },
+    "check_7_cloud_quality": {
+      "status": "PASS",
+      "description": "Verifies satellite cloud cover is <= 30.0%.",
+      "high_cloud_scene_count": 0
+    },
+    "check_8_unit_consistency": {
+      "status": "PASS",
+      "description": "Ensures unit consistency (water_area_ha == water_area_m2 / 10000).",
+      "unit_mismatch_count": 0
+    },
+    "check_9_source_metadata": {
+      "status": "PASS",
+      "description": "Confirms complete source and collection metadata for data traceability.",
+      "missing_source_metadata_count": 0
+    },
+    "check_10_temporal_consistency": {
+      "status": "PASS",
+      "description": "Verifies chronological order of observations for time-series feature engineering.",
+      "out_of_order_count": 0
+    }
+  },
+  "validated_at": "2026-08-13T18:56:06Z"
+}

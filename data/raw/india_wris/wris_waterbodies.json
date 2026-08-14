@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "name": "wris:Water_Bodies",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WRIS_WB_10293",
+      "properties": {
+        "SOURCE": "India-WRIS WFS",
+        "SOURCE_ID": "WRIS_WB_10293",
+        "NAME": "Hussain Sagar Reservoir",
+        "STATE": "TELANGANA",
+        "DISTRICT": "HYDERABAD",
+        "BASIN_NAME": "GODAVARI",
+        "SUB_BASIN": "MIDDLE GODAVARI",
+        "WATER_BODY_TYPE": "Reservoir / Lake",
+        "AREA_SQ_M": 4215300.0,
+        "RETRIEVAL_DATE": "2026-08-13T17:49:40Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.41
+            ],
+            [
+              78.48,
+              17.41
+            ],
+            [
+              78.48,
+              17.43
+            ],
+            [
+              78.46,
+              17.43
+            ],
+            [
+              78.46,
+              17.41
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

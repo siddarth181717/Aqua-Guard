@@ -1,0 +1,159 @@
+{
+  "water_body_id": "WB_HYD_001",
+  "summary": {
+    "total_rainfall_mm": 34.3,
+    "rainy_days": 8
+  },
+  "records": [
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-01",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-02",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-03",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-04",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-05",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-06",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-07",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 1.6,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-08",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.8,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-09",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.8,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-10",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 22.9,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-11",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-12",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 5.1,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-13",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 1.6,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-14",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 0.5,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    },
+    {
+      "water_body_id": "WB_HYD_001",
+      "date": "2024-05-15",
+      "latitude": 17.424799999999998,
+      "longitude": 78.46799999999999,
+      "rainfall": 1.0,
+      "unit": "mm",
+      "source": "Open-Meteo ERA5 API",
+      "retrieved_at": "2026-08-13T17:51:09Z"
+    }
+  ]
+}

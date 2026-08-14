@@ -1,0 +1,2 @@
+water_body_id,prediction_date,health_class,priority,model_version,model_probability
+WB_HYD_001,2026-08-14,LOW_RISK,LOW,1.0.0-prototype-baseline,0.2136

@@ -1,0 +1,31 @@
+{
+  "model_name": "Transparent Rule-Based Baseline Scorer",
+  "version": "1.0.0-prototype-baseline",
+  "training_date": "2026-08-13T18:45:31Z",
+  "status": "PROTOTYPE_BASELINE",
+  "message": "Supervised ML model will be trained automatically as multi-year observations accumulate.",
+  "feature_list": [
+    "water_area_mean",
+    "water_area_current",
+    "water_area_change",
+    "water_area_change_percent",
+    "water_area_trend",
+    "water_area_variability",
+    "mndwi_mean",
+    "mndwi_change",
+    "mndwi_trend",
+    "ndwi_mean",
+    "ndwi_change",
+    "ndwi_trend",
+    "ndvi_mean",
+    "ndvi_change",
+    "ndvi_trend",
+    "annual_rainfall",
+    "builtup_percentage",
+    "data_quality_score"
+  ],
+  "dataset_size": 1,
+  "methodology": "Rule-based prototype baseline",
+  "saved_model_path": "C:\\STUDY\\Project\\Aqua_Guard\\models\\restoration_priority_model.pkl",
+  "saved_scaler_path": "C:\\STUDY\\Project\\Aqua_Guard\\models\\scaler.pkl"
+}

@@ -1,0 +1,2 @@
+water_body_id,year,observation_date,water_area_m2,water_area_ha,water_area_change_percent,mndwi,ndwi,ndvi,cloud_percentage,quality,source
+WB_HYD_001,2024,2024-10-10T05:15:00Z,4180000.0,418.0,0.0,0.415,0.305,-0.149,1.5,EXCELLENT,Landsat-8 OLI GEE

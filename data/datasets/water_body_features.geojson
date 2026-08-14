@@ -1,0 +1,696 @@
+{
+  "type": "FeatureCollection",
+  "name": "AquaGuard_Unified_Water_Body_Features",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_0",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2021,
+        "observation_date": "ERROR",
+        "satellite": "Landsat-9 OLI-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Landsat GEE",
+        "dataset_collection": "LANDSAT/LC08/C02/T1_L2",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_1",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2021,
+        "observation_date": "ERROR",
+        "satellite": "Sentinel-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Sentinel-2 GEE",
+        "dataset_collection": "COPERNICUS/S2_SR_HARMONIZED",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_2",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2022,
+        "observation_date": "ERROR",
+        "satellite": "Landsat-9 OLI-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Landsat GEE",
+        "dataset_collection": "LANDSAT/LC08/C02/T1_L2",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_3",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2022,
+        "observation_date": "ERROR",
+        "satellite": "Sentinel-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Sentinel-2 GEE",
+        "dataset_collection": "COPERNICUS/S2_SR_HARMONIZED",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_4",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2023,
+        "observation_date": "ERROR",
+        "satellite": "Landsat-9 OLI-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Landsat GEE",
+        "dataset_collection": "LANDSAT/LC08/C02/T1_L2",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_5",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2023,
+        "observation_date": "ERROR",
+        "satellite": "Sentinel-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Sentinel-2 GEE",
+        "dataset_collection": "COPERNICUS/S2_SR_HARMONIZED",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_6",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2024,
+        "observation_date": "ERROR",
+        "satellite": "Landsat-9 OLI-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Landsat GEE",
+        "dataset_collection": "LANDSAT/LC08/C02/T1_L2",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_7",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2024,
+        "observation_date": "ERROR",
+        "satellite": "Sentinel-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Sentinel-2 GEE",
+        "dataset_collection": "COPERNICUS/S2_SR_HARMONIZED",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_8",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2025,
+        "observation_date": "ERROR",
+        "satellite": "Landsat-9 OLI-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Landsat GEE",
+        "dataset_collection": "LANDSAT/LC08/C02/T1_L2",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_9",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2025,
+        "observation_date": "ERROR",
+        "satellite": "Sentinel-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Sentinel-2 GEE",
+        "dataset_collection": "COPERNICUS/S2_SR_HARMONIZED",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_10",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2026,
+        "observation_date": "ERROR",
+        "satellite": "Landsat-9 OLI-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Landsat GEE",
+        "dataset_collection": "LANDSAT/LC08/C02/T1_L2",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AQUAGUARD_WB_HYD_001_11",
+      "properties": {
+        "water_body_id": "WB_HYD_001",
+        "name": "Hussain Sagar Lake",
+        "state": "Telangana",
+        "district": "Hyderabad",
+        "year": 2026,
+        "observation_date": "ERROR",
+        "satellite": "Sentinel-2",
+        "water_area_m2": null,
+        "water_area_ha": null,
+        "water_area_change": 0.0,
+        "water_area_change_percent": null,
+        "mndwi": null,
+        "ndwi": null,
+        "ndvi": null,
+        "cloud_percentage": null,
+        "rainfall": null,
+        "landuse": "Hussain Sagar Lake",
+        "builtup": "Urban/Built-up Fringe",
+        "source": "Sentinel-2 GEE",
+        "dataset_collection": "COPERNICUS/S2_SR_HARMONIZED",
+        "acquisition_date": "ERROR",
+        "processing_date": "2026-08-13T18:56:06Z",
+        "retrieved_at": "2026-08-13T18:56:06Z",
+        "data_quality": "UNAVAILABLE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.418
+            ],
+            [
+              78.48,
+              17.418
+            ],
+            [
+              78.48,
+              17.435
+            ],
+            [
+              78.46,
+              17.435
+            ],
+            [
+              78.46,
+              17.418
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

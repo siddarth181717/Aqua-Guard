@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "total_records": 2,
+  "sources": [
+    "Bhuvan (ISRO/NRSC)",
+    "India-WRIS (Ministry of Jal Shakti)"
+  ],
+  "data": [
+    {
+      "source": "Bhuvan WFS",
+      "source_id": "BHUVAN_LULC_50K_884",
+      "water_body_id": "WB_IND_BHUVAN_LULC_50K_884",
+      "name": "Hussain Sagar Lake",
+      "state": "TELANGANA",
+      "district": "HYDERABAD",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.41
+            ],
+            [
+              78.48,
+              17.41
+            ],
+            [
+              78.48,
+              17.43
+            ],
+            [
+              78.46,
+              17.43
+            ],
+            [
+              78.46,
+              17.41
+            ]
+          ]
+        ]
+      },
+      "CRS": "EPSG:4326",
+      "area": 4215300.0,
+      "retrieval_date": "2026-08-13T17:49:34Z"
+    },
+    {
+      "source": "India-WRIS WFS",
+      "source_id": "WRIS_WB_10293",
+      "water_body_id": "WB_IND_WRIS_WB_10293",
+      "name": "Hussain Sagar Reservoir",
+      "state": "TELANGANA",
+      "district": "HYDERABAD",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.41
+            ],
+            [
+              78.48,
+              17.41
+            ],
+            [
+              78.48,
+              17.43
+            ],
+            [
+              78.46,
+              17.43
+            ],
+            [
+              78.46,
+              17.41
+            ]
+          ]
+        ]
+      },
+      "CRS": "EPSG:4326",
+      "area": 4215300.0,
+      "retrieval_date": "2026-08-13T17:49:40Z"
+    }
+  ]
+}

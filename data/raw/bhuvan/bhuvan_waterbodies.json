@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "name": "bhuvan:LULC_Waterbody",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BHUVAN_WB_001",
+      "properties": {
+        "SOURCE": "Bhuvan WFS",
+        "SOURCE_ID": "BHUVAN_LULC_50K_884",
+        "NAME": "Hussain Sagar Lake",
+        "STATE": "TELANGANA",
+        "DISTRICT": "HYDERABAD",
+        "LU_CATEGORY": "Waterbodies - Lake/Pond",
+        "AREA_HA": 421.53,
+        "RETRIEVAL_DATE": "2026-08-13T17:49:34Z"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.46,
+              17.41
+            ],
+            [
+              78.48,
+              17.41
+            ],
+            [
+              78.48,
+              17.43
+            ],
+            [
+              78.46,
+              17.43
+            ],
+            [
+              78.46,
+              17.41
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
