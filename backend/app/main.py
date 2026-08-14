@@ -26,13 +26,18 @@ app = FastAPI(
 )
 
 # Configure CORS Middleware for React frontend & local development
+cors_origins = settings.BACKEND_CORS_ORIGINS
+if isinstance(cors_origins, str):
+    cors_origins = [origin.strip() for origin in cors_origins.split(",") if origin.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.BACKEND_CORS_ORIGINS or ["*"],
+    allow_origins=cors_origins if cors_origins else ["http://localhost:3000", "http://localhost:5173"],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
+
 
 
 @app.exception_handler(Exception)

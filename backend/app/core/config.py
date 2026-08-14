@@ -23,7 +23,12 @@ class Settings(BaseSettings):
     POSTGRES_USER: str = "postgres"
     POSTGRES_PASSWORD: str = "postgres"
     POSTGRES_DB: str = "aquaguard_db"
+    POSTGIS_DATABASE: str = "aquaguard_db"
     DATABASE_URL: str = ""
+
+    # ML Model & Data Configuration
+    ML_MODEL_PATH: str = "models/restoration_priority_model.pkl"
+    DATA_DIRECTORY: str = "data"
 
     # CORS Configuration
     BACKEND_CORS_ORIGINS: List[str] = [
@@ -32,15 +37,19 @@ class Settings(BaseSettings):
         "http://localhost:8000"
     ]
 
-    # GEE Project ID
+    # External APIs
     GEE_PROJECT_ID: str = "aquaguard-gee-project"
+    VITE_API_BASE_URL: str = "http://localhost:8000/api/v1"
+    NEXT_PUBLIC_API_BASE_URL: str = "http://localhost:8000/api/v1"
 
     def model_post_init(self, __context):
         if not self.DATABASE_URL:
             self.DATABASE_URL = f"postgresql://{self.POSTGRES_USER}:{self.POSTGRES_PASSWORD}@{self.POSTGRES_SERVER}:{self.POSTGRES_PORT}/{self.POSTGRES_DB}"
+        if not self.POSTGIS_DATABASE:
+            self.POSTGIS_DATABASE = self.POSTGRES_DB
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=(".env", ".env.development", ".env.local"),
         env_file_encoding="utf-8",
         case_sensitive=True,
         extra="ignore"
@@ -48,3 +57,4 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+

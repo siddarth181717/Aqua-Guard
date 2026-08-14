@@ -1,2 +1,13 @@
-water_body_id,year,observation_date,water_area_mean,water_area_current,water_area_change,water_area_change_percent,water_area_trend,water_area_variability,mndwi_mean,mndwi_change,mndwi_trend,ndwi_mean,ndwi_change,ndwi_trend,ndvi_mean,ndvi_change,ndvi_trend,annual_rainfall,rainfall_change,rainfall_variability,builtup_percentage,vegetation_percentage,agriculture_percentage,observation_count,cloud_percentage_mean,data_completeness,data_quality_score,source
-WB_HYD_001,2024,2024-10-15T05:20:11Z,4215300.0,4215300.0,0.0,0.0,0.0,0.0,0.4285,0.0,0.0,0.312,0.0,0.0,-0.1542,0.0,0.0,12.4,0.0,0.1,25.0,35.0,20.0,1,2.14,1.0,0.98,Sentinel-2 GEE
+water_body_id,water_area_mean,water_area_current,water_area_change,water_area_change_percent,mndwi_mean,mndwi_trend,ndwi_mean,ndvi_mean,annual_rainfall,builtup_percentage,data_quality_score
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95
+WB_HYD_001,,,0.0,,,-0.01,,,,Urban/Built-up Fringe,0.95

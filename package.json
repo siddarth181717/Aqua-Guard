@@ -1,0 +1,15 @@
+{
+  "name": "aquaguard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AquaGuard – AI-Driven Geospatial Surveillance for Water Body Restoration",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint"
+  }
+}

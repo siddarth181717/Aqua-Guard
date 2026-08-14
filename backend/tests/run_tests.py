@@ -18,26 +18,37 @@ from backend.tests.test_water_bodies import (
     test_get_water_body_geometry,
     test_invalid_water_body_not_found
 )
+from backend.tests.test_analysis import (
+    test_get_water_body_observations,
+    test_get_water_body_analytics,
+    test_get_water_body_trend
+)
 from backend.tests.test_predictions import (
     test_get_water_body_prediction,
     test_get_priority_rankings
 )
+from backend.tests.test_end_to_end import test_full_end_to_end_pipeline
 
 
 def run_all_tests():
     print("========================================================================")
-    print(" AQUAGUARD BACKEND TEST SUITE")
+    print(" AQUAGUARD BACKEND & INTEGRATION TEST SUITE")
     print("========================================================================")
 
     tests = [
-        ("Health Check Endpoint", test_health_check_endpoint),
-        ("List Water Bodies Endpoint", test_list_water_bodies),
-        ("Get Water Body Details Endpoint", test_get_water_body_by_id),
-        ("Get Water Body GeoJSON Geometry Endpoint", test_get_water_body_geometry),
+        ("Health Check Endpoint (/api/v1/health)", test_health_check_endpoint),
+        ("List Water Bodies Endpoint (/api/v1/water-bodies)", test_list_water_bodies),
+        ("Get Water Body Details Endpoint (/api/v1/water-bodies/{id})", test_get_water_body_by_id),
+        ("Get Water Body GeoJSON Geometry Endpoint (/api/v1/water-bodies/{id}/geometry)", test_get_water_body_geometry),
         ("Water Body Not Found 404 Endpoint", test_invalid_water_body_not_found),
-        ("Get AI/ML Prediction Endpoint", test_get_water_body_prediction),
-        ("Get Priority Rankings Endpoint", test_get_priority_rankings),
+        ("Get Water Body Observations Endpoint", test_get_water_body_observations),
+        ("Get Water Body Analytics Endpoint", test_get_water_body_analytics),
+        ("Get Water Body Trend Endpoint", test_get_water_body_trend),
+        ("Get AI/ML Prediction Endpoint (/api/v1/water-bodies/{id}/prediction)", test_get_water_body_prediction),
+        ("Get Priority Rankings Endpoint (/api/v1/priorities)", test_get_priority_rankings),
+        ("End-to-End Pipeline & Integration Test", test_full_end_to_end_pipeline),
     ]
+
 
     passed = 0
     failed = 0
